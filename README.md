@@ -1,2 +1,5 @@
 # Ex1_OOP
-offline algorithm for the elevator allocation problem
+This project is dedicated to configure offline algorithm for the elevator allocation problem.
+Update me.
+
+
