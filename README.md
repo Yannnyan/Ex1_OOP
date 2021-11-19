@@ -8,7 +8,7 @@ The purpose of this algorithm is to determine the best sequence of allocations f
 This project contains folders such as 'AnalizeCalls' which contains files written in excel which analize the lists of calls.
 The excel sheets contain graphs used to visualize the problem.
 And more generally those are created to estimate values like average seconds per call, and the distribution of the source and destination calls for different ranges of floors.
-The files insize 'AnalizeCalls' are not necessary to run the code.
+The files insidee 'AnalizeCalls' are not necessary to run the code.
 The project contains a folder called 'input', this folder contains all the .json and .csv files received.
 A PDF which contains all the details about the project also could be found inside this branch.
 
