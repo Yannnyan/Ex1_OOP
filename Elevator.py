@@ -2,6 +2,7 @@ import math
 
 
 class Elevator:
+    # simple class which has all the attributes of an elevator
     def __init__(self, elev):
         self._id = elev[0]
         self._speed = elev[1]
