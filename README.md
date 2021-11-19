@@ -10,7 +10,7 @@ Our algorithm idea is to implement a Sectorization algorithm for the elevator al
 ### Possible problems with that idea
 Matching a single elevator to a sector may be a problem when a certain sector is spammed with calls. So the elevator could not handle all the calls resulting deffieciency.
 ### Our solutions to the problems
-Our algorithm holds a dynamic value which is directly linked with how many calls each elevator received untill that point of time. That value measures whether an elevator is being spammed. When allocating the elevator to the call our algorithem inspects this value and if the lift is indeed spammed, then allocate the next elevator which is not being spammed and handles the closest Sector. This solution is tested and indeed improved the algorithm by a lot.  
+Our algorithm holds a dynamic value which is directly linked with how many calls each elevator received untill that point of time. That value measures whether an elevator is being spammed. When allocating the elevator to the call our algorithem inspects this value and if the lift is indeed spammed, then allocate the next elevator which is not being spammed and handles the closest Sector. This solution is tested and indeed improved the average waiting time by a lot.  
 ### Files and README extension
 This project contains folders such as 'AnalizeCalls' which contains files written in excel which analize the lists of calls.
 The excel sheets contain graphs used to visualize the problem.
